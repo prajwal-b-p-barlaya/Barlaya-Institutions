@@ -1,0 +1,349 @@
+
+.down-bar {
+    text-align: center;
+    background: rgb(12, 108, 149);
+
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+    background: #f54f92;
+    color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+    background: #4a32a7;
+    color: white;
+}
+
+.last {
+    background: rgba(77, 10, 143, 0.226);
+    color: white;
+}
+
+.about {
+    background: rgba(77, 10, 143, 0.226);
+    color: white;
+    font-size: 30px;
+}
+
+.lastbutone {
+    background: rgb(239, 228, 228);
+    color: rgb(239, 228, 228);
+}
+
+.hel {
+    background: rgb(239, 228, 228);
+    color: rgb(239, 228, 228);
+}
+
+.table {
+    font-size: 15px;
+
+}
+
+.abb {
+    background: orange;
+    text-align: center;
+    font-size: 230%;
+}
+
+.atmylast {
+
+    background: white;
+    color: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-size: 50% 50%;
+    /* display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between; */
+}
+
+.menu-bar {
+    background: darkblue;
+    text-align: left;
+    height: 75px;
+
+
+}
+@media (max-width:767px){
+            html{
+                font-size:55%;
+        }}
+/* div{
+    flex-basis:100%;
+    height:100%;
+    margin-bottom:0.5rem;
+
+} */
+/* @media (min-width:600px){
+    main{
+        flex-wrap:33%;
+    }
+    div{
+        flex-basis:33%;
+    }
+} */
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 20px;
+    padding: 15px;
+    height: 50px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: blueviolet;
+    border-radius: 1px;
+
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu-1 {
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 4px;
+    margin-left: -4px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 4px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: right;
+    border-radius: 0;
+
+
+
+}
+.column{
+    width:100%;
+}
+@media (min-width:600px){
+    .column{
+        width:50%;
+    }        }
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: black;
+}
+
+.fa-caret-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+    text-align: right;
+}
+
+.menu-bar ul li:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: 4px;
+    margin-left: -4px;
+    background: green;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul {
+    display: block;
+    margin: 4px;
+    text-align: right;
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
+    border-bottom: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+    color: black;
+}
+
+.fa-caret-right {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.menu-bar-2 {
+    background: rgb(64, 61, 65);
+    text-align: left;
+    height: 50px;
+}
+
+
+.menu-bar-3 {
+    background: rgb(117, 30, 161);
+    text-align: left;
+    height: 10px;
+    font-size: 20px
+}
+.middle-bar {
+    background: orange;
+    text-align: center;
+    font-size: 300%;
+
+
+}
+
+.front-end {
+    background: white;
+
+}
+
+.text-head {
+
+    background: lightcyan;
+}
+
+.photo {
+    background: white;
+}
+
+.hi {
+    font-size: 25px;
+    background: white;
+
+}
+.feedback {
+
+    background: peachpuff;
+    color: rgb(124, 59, 59);
+    font-size: 35px;
+}
+
+.whitee {
+    background: white;
+    color: white;
+}
+
+.blackkyy {
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+.hhh{
+    background:#8c7dca;
+    color:brown;
+    font-size:20px;
+    
+}
+/* @media (max-width:767px){
+    html{
+        font-size:55%;
+}
+.menu-bar{
+    display:initial;
+}
+.menu-bar{
+    padding:2rem;
+}
+.menu-bar{
+    position:absolute;
+    top:100%;
+    width:80%;
+    left:10%;
+    top:-1000%;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    border-radius:15px;
+    transition:.5s;
+
+}
+.menu-bar a{
+    color:#222533;
+    display:block;
+    margin:1rem;
+    font-size:14px;
+}
+} */
