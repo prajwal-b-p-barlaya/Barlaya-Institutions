@@ -114,7 +114,7 @@ body {
 .menu-bar ul {
     display: inline-flex;
     list-style: none;
-    color: white;
+    color: black;
 }
 
 .menu-bar ul li {
